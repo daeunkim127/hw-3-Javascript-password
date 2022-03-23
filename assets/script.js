@@ -1,4 +1,6 @@
 // Assignment Code
+
+
 function generatePassword() {
     //passwordLength will give how long the user wants for a password
     var passwordLength=0;
@@ -45,28 +47,28 @@ function generatePassword() {
     if (includeNumbers) {input.push(allowed.numbers)};
     if (includeSpecial) {input.push(allowed.specials)};
     
-    //making input array into string and split into strings with on character
+    //making input array into string and split into strings with one character
     input = input.join("").split("");
     
     //generating random password
     for(var i = 0; i< passwordLength; i++) {
-        var index = (Math.floor(Math.random() * input.length));
+        var index = Math.floor(Math.random() * input.length);
         password = password+input[index]
     }
+    
     return password;
 }
-  
 
 // Write password to the #password input
 function writePassword() {
     var password = generatePassword();
-    var passwordText = document.querySelector("#password");
     console.log(password);
-    passwordText.textContent = password;
+    var passwordText = document.querySelector("#password");
+    passwordText.value = password;
 }
 
 
 
 // Add event listener to generate button
 var generateBtn=document.getElementById("generate");
-generateBtn.addEventListener("click", generatePassword);
+generateBtn.addEventListener("click", writePassword);
