@@ -7,3 +7,7 @@
     * Upon the selection, new secure is generated and shown in the text box.
 
 ## Selection will be given by the window alert with button click
+![window alert demo](./assets/images/first-prompt.png)
+
+## Generated password will be shown in the text box.
+![generated password](./assets/images/generated-password.png)
