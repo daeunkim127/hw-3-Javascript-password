@@ -2,11 +2,11 @@
 ## Password Generater
     * You can choose a length of password.
          -Length has to be greater than 8 and less than 128.
-    * You can choose types of character (Lowercase/Uppercase/Special/Numbers).
+    * You can choose types of character (Lowercase/Uppercase/Symbols/Numbers).
          -It will ask you to choose at least one type of character.
-    * Upon the selection, new secure is generated and shown in the text box.
+    * Upon the selection, new secure password is generated and shown in the text box.
 
-## Selection will be given by the window alert with button click
+## Selection will be given via the window alert by clicking 'Generate Password' button.
 ![window alert demo](./assets/images/first-prompt.png)
 
 ## Generated password will be shown in the text box.
