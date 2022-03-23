@@ -11,3 +11,6 @@
 
 ## Generated password will be shown in the text box.
 ![generated password](./assets/images/generated-password.png)
+
+### Link to Github repository: https://github.com/daeunkim127/hw-3-Javascript-password.git
+### Link to Webpage: https://daeunkim127.github.io/hw-3-Javascript-password/
